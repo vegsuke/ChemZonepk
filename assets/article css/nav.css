@@ -4,14 +4,14 @@
         overflow: auto;
         
         
-    }
-
-    header{
-        background-color: rgb(87, 46, 46);
-    
         
     }
 
+    #navbar{
+        background-color: rgb(87, 46, 46);
+    }
+
+   
     header::after{
         content: '';
         display: table;
@@ -43,6 +43,13 @@
         font-weight: 300;
         box-shadow: none;
         width: 25%;
+        
+        
+    }
+
+    .nav-item{
+        font-size: 1.9rem;
+        font-weight: 300;
     }
 
    nav{
@@ -72,9 +79,7 @@ nav #ul-7{
     position: relative;
 
 }
-.nav-item{
-    font-size: 1.9rem;
-}
+
 
 @media screen and (max-width: 500px) {
     #navbar a {

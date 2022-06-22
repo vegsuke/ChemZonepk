@@ -48,9 +48,9 @@
     </Article> ------->
     <div class="main">
    
-    <header class="navbar" id="navbar">
+    
 
-    <div class="left-side" >
+    <div class="navbar" id="navbar" >
         <nav>
         <ul id="ul-6">
             <li><a href="#PAINT">Paint</a></li>
@@ -60,12 +60,24 @@
           </ul> 
             <ul class="right-side">
                 <li class="nav-item">
-                   <strong><a style="color: white;" class="nav-link-active" aria-current="page" href="#">ChemZonepk</a></strong>
+                   <strong><a style="color: white;" class="logo" aria-current="page" href="#">ChemZonepk</a></strong>
                 </li>
             </ul>
         </nav>
             
     </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("navbar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>
+        
 
     <script>
         var prevScrollpos = window.pageYOffset;
@@ -74,7 +86,7 @@
           if (prevScrollpos > currentScrollPos) {
             document.getElementById("navbar").style.top = "0";
           } else {
-            document.getElementById("navbar").style.top = "-50px";
+            document.getElementById("navbar").style.top = "-85px";
           }
           prevScrollpos = currentScrollPos;
         }
@@ -82,7 +94,7 @@
 
 
 
-   </header>
+  
 
 <div class="main-1">
     <br><br>
