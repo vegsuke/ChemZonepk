@@ -16,3 +16,8 @@ article * {grid-column: start / end;}
 
 }
 
+.main-2 {
+    background:linear-gradient(hsl(55, 77%, 74%), rgb(247, 234, 234) 3.5rem);
+
+}
+
