@@ -2,10 +2,12 @@
         width: 88%;
         margin: auto 0;
         
+        
     }
 
     header{
         background-color: rgb(87, 46, 46);
+    
         
     }
 
@@ -58,6 +60,7 @@
     top: 0;
     width: 100%;
     transition: top 0.3s;
+    height: 4.0rem;
 }
 
 nav #ul-7{
@@ -68,5 +71,9 @@ nav #ul-7{
 
 }
 .nav-item{
-    font-size: 30px;
+    font-size: 1.9rem;
 }
+
+
+
+
