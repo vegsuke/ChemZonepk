@@ -1,6 +1,7 @@
    .nav{
-        width: 88%;
+        width: 100%;
         margin: auto 0;
+        overflow: auto;
         
         
     }
@@ -28,7 +29,7 @@
 
     nav li {
         display: inline-block;
-        position: relative;
+      
         margin-left: .8rem;
         padding: 8px;
         
@@ -37,10 +38,11 @@
 
     
 
-    nav a {
+    #navbar a {
         color: white;
         font-weight: 300;
         box-shadow: none;
+        width: 25%;
     }
 
    nav{
@@ -74,5 +76,13 @@ nav #ul-7{
     font-size: 1.9rem;
 }
 
+@media screen and (max-width: 500px) {
+    #navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
 
 
