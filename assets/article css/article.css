@@ -12,7 +12,7 @@ article * {grid-column: start / end;}
 }
 
 .main {
-    background:linear-gradient(hsl(55, 78%, 69%), rgb(247, 234, 234) 6.5rem);
+    background:linear-gradient(hsl(55, 78%, 69%), rgb(247, 234, 234) 8.5rem);
 
 }
 
